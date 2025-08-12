@@ -1,0 +1,332 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="About Nexge - Company | Nexge Technologies">
+  <Navigation />
+  
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-blue-50 via-white to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+          </svg>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          About Nexge
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          Building communication platforms that help Telecom Service Providers launch innovative and revenue enhancing services to their consumer and business customers.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+            Contact Us
+          </a>
+          <a href="#leadership" class="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+            Meet Our Team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Team Section -->
+  <section id="leadership" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Leadership Team</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Meet the experienced professionals leading Nexge's innovation in telecommunications technology.
+        </p>
+      </div>
+
+      <!-- First Row - Founder & Senior Leadership -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <!-- Mahesh Dyaram - Founder & CTO -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-blue-100 to-indigo-100">
+            <div class="flex items-center justify-center">
+              <div class="w-32 h-32 bg-blue-200 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Mahesh Dyaram</h3>
+            <p class="text-blue-600 font-semibold mb-4">Founder & CTO</p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Mahesh provides overall Technology and Strategy Leadership to Nexge. The go-to guy for any technical challenge, he seems to have solutions all the time. He believes in agile software development processes without leaving sight on high quality products. B.Tech from IIT-Bombay and PGDM from IIM-Calcutta with more than 18 years of experience. He sits on the Boards of 2 more companies and is interested in Space, Quantum Physics, Vedas, Bhagavad Gita, Spirituality and Sanskrit Literature.
+            </p>
+          </div>
+        </div>
+
+        <!-- Chidamparam - VP Engineering -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-green-100 to-blue-100">
+            <div class="flex items-center justify-center">
+              <div class="w-32 h-32 bg-green-200 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Chidamparam</h3>
+            <p class="text-green-600 font-semibold mb-4">Vice President – Engineering</p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Chidamparam provides leadership in Product Development & Engineering within Nexge. A Post Graduate in Engineering from College of Engineering, Guindy, Chennai with more than 25 years of Experience in VoIP Protocols, Applications and overall telecom experience enables him to provide best solutions to our clients and to work with technology partners to take care of interop and integration requirements. The "process" guy who keeps a close watch on timely technology deliverables.
+            </p>
+          </div>
+        </div>
+
+        <!-- Madhu Mayanat - VP Business Development -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-purple-100 to-pink-100">
+            <div class="flex items-center justify-center">
+              <div class="w-32 h-32 bg-purple-200 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Madhu Mayanat</h3>
+            <p class="text-purple-600 font-semibold mb-4">Vice President – Business Development</p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Madhu has a B.Tech in Electrical & Electronics with more than 20 years of experience in Business Development and Client Relationships. He has worked with both large and startup IT companies in domestic and international markets handling large accounts. With Nexge since 2005, he has been instrumental in expanding the business in new geographies and different market segments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Row - VPs and AVPs -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- C Prabhu - VP Technical Support -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-red-100 to-orange-100">
+            <div class="flex items-center justify-center">
+              <div class="w-32 h-32 bg-red-200 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">C Prabhu</h3>
+            <p class="text-red-600 font-semibold mb-4">Vice President – Technical Support</p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Prabhu is an MCA and has been with Nexge since its inception. With more than 13 years of experience, he provides leadership in the QA & Technical Support functions within Nexge. Cool and Calm, he seems to have an answer to most of the technical queries from Customers.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kumarselvan - AVP Technology -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-yellow-100 to-orange-100">
+            <div class="flex items-center justify-center">
+              <div class="w-32 h-32 bg-yellow-200 rounded-full flex items-center justify-center">
+                <svg class="w-16 h-16 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Kumarselvan</h3>
+            <p class="text-yellow-600 font-semibold mb-4">AVP - Technology</p>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Kumar is a Bachelor in Information Technology and leads the Applications team within Nexge. With more than 10 years of experience, he is responsible for architecting feature rich and highly scalable applications as a part of Nexge's products. A Self-learning professional with great problem solving skills, he provides the required direction & agility to Nexge's technology execution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Career</h2>
+        <div class="max-w-4xl mx-auto">
+          <p class="text-gray-600 mb-6">
+            Nexge was built to develop communication platforms that help Telecom Service Providers in launching innovative and Revenue enhancing services to their consumer and business customers. Over the last decade our technologies have played a critical part in changing how people around the world communicate with one another. With millions of subscribers using our Platforms across 200+ Service Providers spread across the globe, a career at Nexge offers countless ways to make an impact in a fast growing organization.
+          </p>
+          <p class="text-gray-600">
+            If you want to work in a team of intelligent people who create, deploy and sell Voice, Video, Messaging and VAS Products that millions of people use around the world and if you want to solve unique, large scale, highly complex technical challenges or make a career in the business side of an accelerating company, Nexge is the place to be! Nexge is seeking fresh & experienced Business Managers & Software Engineers to join its nimble but highly productive team.
+          </p>
+        </div>
+      </div>
+
+      <!-- Job Openings -->
+      <div class="max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Current Openings</h3>
+        
+        <!-- Executive - Business Development -->
+        <div class="bg-white rounded-2xl shadow-lg mb-6 overflow-hidden">
+          <div class="bg-blue-50 px-6 py-4 border-b border-blue-100">
+            <h4 class="text-xl font-semibold text-gray-900">Executive – Business Development</h4>
+          </div>
+          <div class="p-6">
+            <div class="mb-6">
+              <h5 class="text-lg font-semibold text-gray-900 mb-3">Job Description:</h5>
+              <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Position is based in Chennai, India.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>The candidate will be responsible in driving Nexge's VoIP Platform sales to VoIP Service Providers in India and abroad.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Travel in India and abroad 'as and when required'.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Prospect and develop the target customers through Phone / Internet Searches & Forums / Social Media and direct meetings.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Negotiation and Sales Planning to reach the monthly target.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Telephonically reach out to customer on a regular basis to generate leads.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Maintain a consistent and accurate account and sales lead pipeline.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Understand and articulate the company's value proposition to customers.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mb-6">
+              <h5 class="text-lg font-semibold text-gray-900 mb-3">Required Skills & Experience:</h5>
+              <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>The ideal candidate should have a minimum of 1 year of B2B sales experience in a similar position selling IT Software, Security, Hardware, Networking or Storage Solutions etc.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Experience in VOIP Product sales will be an advantage.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>Graduate in Engineering or MBA will be an advantage but not a must.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                  <span>MUST be proficient in English and Malayalam or English and Bengali.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="text-center">
+              <a href="mailto:careers@nexge.com" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                Apply Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Software Engineer -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div class="bg-green-50 px-6 py-4 border-b border-green-100">
+            <h4 class="text-xl font-semibold text-gray-900">Software Engineer</h4>
+          </div>
+          <div class="p-6">
+            <div class="mb-6">
+              <h5 class="text-lg font-semibold text-gray-900 mb-3">Job Description:</h5>
+              <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Position is based in Chennai, India.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Create elegant and useful software solutions to solve complex telecom requirements by working across various teams.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Work closely with Product Management and Design teams to deliver feature specifications.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Design and develop front-end interfaces, underlying APIs, and backend systems across a number of programming languages.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Analyse and improve the efficiency, scalability, stability and security of Nexge Products.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mb-6">
+              <h5 class="text-lg font-semibold text-gray-900 mb-3">Required Skills & Experience:</h5>
+              <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>B.Tech. / B.E. or Master's degree in Computer Science or IT.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>1-4 years' experience building software solutions in an agile environment using Core Java, J2EE, Socket Programming & threads, JMS, Struts etc.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Good knowledge on RDBMS, PL/SQL, JDBC</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Other skills: HTML, JavaScript, CSS, JSON, JQuery, Webservices etc.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Should be strong in Object Oriented Programming Concepts and Networking</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Working knowledge of API design and distributed backend systems a plus.</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mr-3 mt-2"></div>
+                  <span>Should have good Verbal and written communication in English language.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="text-center">
+              <a href="mailto:careers@nexge.com" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors inline-flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                Apply Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
